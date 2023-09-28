@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  body {
+    background: #0d192b;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    background: #14253d;
+    max-width: 660px;
+    margin: 0 1rem;
+    border-radius: 20px;
+  }
+  
+  .image_container {
+    width: 50%;
+  }
+  
+  .image_container img {
+    width: 400px;
+    object-fit: cover;
+    padding: 2rem;
+    border-radius: 45px;
+  }
+  
+  .details_container {
+    padding: 2rem;
+  }
+  
+  .details_container .title {
+    margin-top: -35px;
+    margin-bottom: 20px;
+  }
+  
+  .details_container .description {
+    font-size: 25px;
+    color: #8bacda;
+    margin-bottom: 10px;
+  }
+  
+  .nft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 4px solid #2f415b;
+  }
+  
+  .price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .price span {
+    color: #00fff7;
+  }
+  
+  .price-icon {
+    margin-right: 10px;
+    font-weight: 600;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+    font-size: 19px;
+  }
+  
+  .details span {
+    color: #8bacda;
+  }
+  
+  .clock {
+    margin-right: 10px;
+    width: 20px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    top: -25px;
+  }
+  
+  .footer p {
+    margin-right: 120px;
+    font-size: 20px;
+  }
+  
+  .footer img {
+    width: 45px;
+    border: 1.5px solid white;
+    border-radius: 30px;
+  }
+  
+  .footer span {
+    color: #8cacd9;
+    margin-right: 7px;
+  }
